@@ -8157,13 +8157,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress-axe@npm:^0.13.0":
-  version: 0.13.0
-  resolution: "cypress-axe@npm:0.13.0"
+"cypress-axe@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "cypress-axe@npm:0.14.0"
   peerDependencies:
     axe-core: ^3 || ^4
-    cypress: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: 52879b6b7af46c101f20b1969e98d03e3ddc64a7c3c1dc6a536837550a4d7d4211e493817ff4b253d0d4ce6acf62ff4d5d33389709b924c9e0a9cf602b0a81d7
+    cypress: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
+  checksum: 72c639502e2c2ed0f084453b9fa6c77bf5af736e8904600887b7c64e7edbd833e7d2de2b290d6149cc7805b5e08ce2fcc4206d0ee85b31ae7b4cfd02d582ed3c
   languageName: node
   linkType: hard
 
@@ -11615,7 +11615,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.1.0
     babel-jest: ^27.3.1
     cypress: ^8.6.0
-    cypress-axe: ^0.13.0
+    cypress-axe: ^0.14.0
     eslint: ^7.32.0
     eslint-config-airbnb: ^18.2.1
     eslint-config-airbnb-typescript: ^14.0.1
@@ -11756,7 +11756,7 @@ __metadata:
     axe-core: ^4.3.3
     babel-jest: ^27.3.1
     cypress: ^8.6.0
-    cypress-axe: ^0.13.0
+    cypress-axe: ^0.14.0
     eslint: ^7.32.0
     eslint-config-airbnb: ^18.2.1
     eslint-config-airbnb-typescript: ^14.0.1
