@@ -1506,6 +1506,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.20.13":
+  version: 7.21.5
+  resolution: "@babel/runtime@npm:7.21.5"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 358f2779d3187f5c67ad302e8f8d435412925d0b991d133c7d4a7b1ddd5a3fda1b6f34537cb64628dfd96a27ae46df105bed3895b8d754b88cacdded8d1129dd
+  languageName: node
+  linkType: hard
+
 "@babel/standalone@npm:^7.15.5":
   version: 7.15.8
   resolution: "@babel/standalone@npm:7.15.8"
@@ -7372,6 +7381,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"common-tags@npm:^1.8.2":
+  version: 1.8.2
+  resolution: "common-tags@npm:1.8.2"
+  checksum: 767a6255a84bbc47df49a60ab583053bb29a7d9687066a18500a516188a062c4e4cd52de341f22de0b07062e699b1b8fe3cfa1cb55b241cb9301aeb4f45b4dff
+  languageName: node
+  linkType: hard
+
 "commondir@npm:^1.0.1":
   version: 1.0.1
   resolution: "commondir@npm:1.0.1"
@@ -11576,6 +11592,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-remark-responsive-iframe@npm:^6.9.0":
+  version: 6.9.0
+  resolution: "gatsby-remark-responsive-iframe@npm:6.9.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    cheerio: ^1.0.0-rc.10
+    common-tags: ^1.8.2
+    lodash: ^4.17.21
+    unist-util-visit: ^2.0.3
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: 173f974f6b2e09748b8165cd0870516fc5545af77902ef5b709448f6e355284edce1fbe0cf41a8a15dbeb807a944fd0abade7e8877a1ac55c1ad1bb4ed0ea3fb
+  languageName: node
+  linkType: hard
+
 "gatsby-source-filesystem@npm:^4.0.0":
   version: 4.0.0
   resolution: "gatsby-source-filesystem@npm:4.0.0"
@@ -11874,7 +11905,7 @@ __metadata:
     gatsby-remark-images: ^6.0.0
     gatsby-remark-prismjs: ^6.0.0
     gatsby-remark-relative-images: ^2.0.2
-    gatsby-remark-responsive-iframe: ^5.0.0
+    gatsby-remark-responsive-iframe: ^6.9.0
     gatsby-source-filesystem: ^4.0.0
     gatsby-theme-advanced: ^4.0.0
     gatsby-transformer-remark: ^5.0.0
@@ -22225,6 +22256,13 @@ __metadata:
   version: 0.11.1
   resolution: "regenerator-runtime@npm:0.11.1"
   checksum: 3c97bd2c7b2b3247e6f8e2147a002eb78c995323732dad5dc70fac8d8d0b758d0295e7015b90d3d444446ae77cbd24b9f9123ec3a77018e81d8999818301b4f4
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
